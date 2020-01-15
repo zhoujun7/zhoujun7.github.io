@@ -3,7 +3,7 @@ name: Hank Quinlan, Horrible Cop
 permalink: /blog/:year/:month/:day/:title
 
 # 转换
-markdown:    kramdown
+markdown:    redcarpet
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
