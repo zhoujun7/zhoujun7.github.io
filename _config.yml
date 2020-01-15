@@ -13,8 +13,11 @@ incremental: false
 rdiscount:
   extensions: []
 
+# redcarpet:
+#   extensions: []
+
 redcarpet:
-  extensions: []
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 
 kramdown:
   input: GFM
